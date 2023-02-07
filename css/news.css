@@ -1,0 +1,52 @@
+.news__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 2.4rem;
+}
+
+.news__spi-logo {
+  width: 6.4rem;
+  height: 6.4rem;
+  margin-bottom: 2.4rem;
+  align-self: center;
+}
+
+.news__image {
+  height: 23rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.news__title-header {
+  display: flex;
+  align-items: center;
+}
+
+.news__title-header__icon {
+  margin-right: 0.5rem;
+  color: var(--dateColor);
+}
+
+.news__title {
+  width: 100%;
+  margin-bottom: 2.4rem;
+}
+
+.news__description {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .news__content {
+    max-width: 60rem;
+    margin: auto;
+  }
+
+  .news__image {
+    height: 30rem;
+    width: 100%;
+  }
+}

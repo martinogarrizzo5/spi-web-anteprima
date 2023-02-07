@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* typography */
+
+.head1 {
+  font-size: 2.2rem;
+  height: 1.454;
+  color: #1d1f21;
+}
+
+.head4 {
+  font-size: 1.4rem;
+  color: #1d1f21;
+}
+
+.body {
+  font-size: 1.8rem;
+  line-height: 1.555;
+  color: #9da3af;
+}
+
+.date {
+  font-size: 1.4rem;
+  color: #575757;
+  font-weight: 300;
+}
+
+:root {
+  --primaryColor: #ff5353;
+  --dateColor: #575757;
+}

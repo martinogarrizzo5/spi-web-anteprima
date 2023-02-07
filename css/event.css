@@ -1,0 +1,83 @@
+.event__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 2.4rem;
+}
+
+.event__spi-logo {
+  width: 6.4rem;
+  height: 6.4rem;
+  margin-bottom: 2.4rem;
+  align-self: center;
+}
+
+.event__image {
+  height: 23rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.event__location-badge {
+  border-radius: 2.4rem;
+  border: 1px solid var(--primaryColor);
+  color: var(--primaryColor);
+  font-weight: 500;
+  padding: 0.3rem 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.event__title-header {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.event__title-header__date-section {
+  display: flex;
+  align-items: center;
+}
+
+.event__title-header__date-section__date {
+  margin: 0 1.5rem 0 0.5rem;
+}
+
+.event__title-header__date-section__icon {
+  color: var(--dateColor);
+}
+
+.event__title-header__time-section {
+  display: flex;
+  align-items: center;
+}
+
+.event__title-header__time-section__time {
+  color: var(--dateColor);
+}
+
+.event__title-header__time-section__icon {
+  color: var(--dateColor);
+  margin-right: 0.5rem;
+}
+
+.event__title {
+  width: 100%;
+  margin-bottom: 2.4rem;
+}
+
+.event__description {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .event__content {
+    max-width: 60rem;
+    margin: auto;
+  }
+
+  .event__image {
+    height: 30rem;
+    width: 100%;
+  }
+}

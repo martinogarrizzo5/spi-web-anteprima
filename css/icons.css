@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "SpiIcons";
+  src: url("../fonts/SpiIcons.woff2") format("woff2");
+}
+
+.calendar-icon:before {
+  content: "\e804";
+  font-family: "SpiIcons";
+}
+
+.clock-icon:before {
+  content: "\e819";
+  font-family: "SpiIcons";
+}
