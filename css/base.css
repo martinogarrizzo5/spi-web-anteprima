@@ -41,6 +41,12 @@ body {
   font-weight: 300;
 }
 
+.time {
+  font-size: 1.4rem;
+  color: #575757;
+  font-weight: 300;
+}
+
 :root {
   --primaryColor: #ff5353;
   --dateColor: #575757;
